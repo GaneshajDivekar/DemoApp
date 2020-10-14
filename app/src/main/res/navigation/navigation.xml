@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@+id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.app.demoapp.ui.splashModule.SplashFragment"
+        android:label="@string/splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_homeFragment_to_loginFragmet"
+            app:destination="@+id/loginFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_notesListFragment"
+            app:destination="@id/notesListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.app.demoapp.ui.loginModule.LoginFragment"
+        android:label="@string/login"
+        tools:layout="@layout/fragment_login">
+        <action android:id="@+id/action_loginFragment_to_notesListFragmet" app:destination="@+id/notesListFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/notesListFragment"
+        android:name="com.app.demoapp.ui.noteslistmodule.NotesListFragment"
+        android:label="@string/note_list"
+        tools:layout="@layout/fragment_notes_list">
+        <action android:id="@+id/action_notesListFragmet_to_addNoteFragment" app:destination="@+id/addNoteFragment"/>
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/addNoteFragment"
+        android:name="com.app.demoapp.ui.addnotesmodule.AddNotesFragment"
+        android:label="@string/add_note"
+        tools:layout="@layout/fragment_add_notes">
+
+    </fragment>
+
+</navigation>

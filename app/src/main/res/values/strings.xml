@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="no_internet">Please check internet connection</string>
+    <string name="no_internetfound">No Internet Connection Found \n Please Check Your Internet Settings </string>
+    <string name="login_successfully">Login successfully</string>
+    <string name="request_otp">Request OTP</string>
+
+
+    <string name="enter_mobile_number">Enter Mobile No.</string>
+    <string name="login">LOGIN</string>
+    <string name="otp_password">OTP/Password</string>
+    <string name="use_otp">Use OTP</string>
+    <string name="use_password">Use Password</string>
+    <string name="Keep_me_signed_in">Keep me signed in</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="donot_have_an_account">Don\'t have an account?</string>
+    <string name="register_now">Register Now</string>
+    <string name="register">Register</string>
+    <string name="acme_store">Acme Store</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="splash">Splash</string>
+
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="activity_title_home">Notes</string>
+    <string name="msg_no_notes">No notes found!</string>
+    <string name="lbl_new_note_title">New Note</string>
+    <string name="lbl_edit_note_title">Edit Note</string>
+    <string name="hint_enter_note">Enter your note!</string>
+    <string name="hint_title">Enter Title</string>
+    <string name="note_list">NotesList</string>
+    <string name="add_note">add_note</string>
+</resources>

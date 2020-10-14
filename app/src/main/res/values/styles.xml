@@ -1,0 +1,106 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <!--  <item name="textInputStyle">@style/OutlinedRoundedBox</item>-->
+    </style>
+
+    <style name="DashboardThemee" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="OtpWidget.OtpView" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="blueCheck">
+        <item name="colorAccent">#2E83FF</item>
+    </style>
+
+
+    <style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+        <!--<item name="android:background">@drawable/bottom_sheet_background</item>-->
+    </style>
+
+    <style name="BaseBottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="BaseBottomSheetDialog" />
+
+
+    <style name="FullScreenDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="actionMenuTextColor">@color/colorAccent</item>
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_bottom</item>
+    </style>
+
+    <style name="Dialogtheme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen"></style>
+
+    <style name="MyMaterialTheme.TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabTextAppearance">@style/MyMaterialTheme.TabLayout.TextAppearance</item>
+        <item name="tabSelectedTextColor">@color/bluecolor</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="MyMaterialTheme.TabLayout.TextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@color/colorAccent</item>
+    </style>
+
+    <style name="spinnerItemStyle" parent="android:Widget.TextView.SpinnerItem">
+
+    </style>
+
+    <style name="spinnerDropDownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+
+    </style>
+
+    <style name="OutlinedRoundedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="OutlinedRoundedBoxDropDown" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded</item>
+    </style>
+
+    <style name="OutlinedRoundedPassword" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded</item>
+    </style>
+
+</resources>
+

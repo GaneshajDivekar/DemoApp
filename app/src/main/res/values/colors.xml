@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#233895</color>
+    <color name="colorPrimaryDark">#233895</color>
+    <color name="colorAccent">#129d92</color>
+    <color name="black">#000000</color>
+    <color name="gray">#d3d3d3</color>
+    <color name="text_color_gary">#A2A2A2</color>
+    <color name="lightBlue">#EAF2FF</color>
+    <color name="card_background">#F2F3F6</color>
+    <color name="medium_text">#7e7e7e</color>
+
+    <color name="button_orange_color">#FF7A27</color>
+    <color name="text_color">#222222</color>
+    <color name="login_button_blue">#233895</color>
+    <color name="light_grey">#ECEFF1</color>
+    <color name="bluecolor">#003366</color>
+
+    <color name="msg_no_notes">#999</color>
+    <color name="hint_enter_note">#89c3c3c3</color>
+    <color name="timestamp">#858585</color>
+    <color name="note_list_text">#232323</color>
+    <color name="white">#ffffff</color>
+    <color name="line">#40000000</color>
+
+</resources>
